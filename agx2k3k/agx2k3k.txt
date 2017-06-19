@@ -1,0 +1,145 @@
+IVI Compliance Category:
+-----------------------
+
+IVI-C IviScope Specific Instrument Driver 
+
+Class Specification version:    4.1
+IVI Generation:                 IVI-2014
+Group Capabilities Supported:
+
+Base                     = Supported
+Interpolation            = Supported
+TVTrigger                = Supported
+RuntTrigger              = Supported
+GlitchTrigger            = Supported
+WidthTrigger             = Not Supported
+AcLineTrigger            = Not Supported
+WaveformMeasurement      = Supported
+MinMaxWaveform           = Supported
+ProbeAutoSense           = Supported
+ContinuousAcquisition    = Supported
+AverageAcquisition       = Supported
+SampleMode               = Supported
+TriggerModifier          = Supported
+AutoSetup                = Supported
+
+
+
+Optional Features:
+-----------------
+Interchangeability Checking    = True
+State Caching                  = True
+Coercion Recording             = True
+
+
+Driver Identification:
+---------------------
+Driver Revision:                          3.2.1
+Driver Vendor:                            National Instruments
+Prefix:                                   agx2k3k
+Description:                              Agilent 2000 3000 X-Series Oscilloscopes
+
+
+
+Driver Release Information:
+--------------------------
+Original Release Date:                    06/24/2011
+Update Release Date:                      02/29/2016
+
+
+
+Hardware Information:
+--------------------
+Instrument Manufacturer:                  Agilent Technologies
+Supported Instrument Models:              MSOX4022A, MSOX4032A, MSOX4052A, MSOX4024A, MSOX4034A, MSOX4054A, MSOX4104A,
+                                          MSOX4154A, DSOX4022A, DSOX4032A, DSOX4052A, DSOX4024A, DSOX4034A, DSOX4054A, 
+                                          DSOX4104A, DSOX4154A, 
+                                          MSOX3102A, MSOX3104A, MSOX3014A, MSOX3024A, MSOX3034A, MSOX3054A, MSOX3012A,
+                                          MSOX3032A, MSOX3052A, DSOX3102A, DSOX3104A, DSOX3014A, DSOX3024A, DSOX3034A,
+                                          DSOX3054A, DSOX3012A, DSOX3032A, DSOX3052A, 
+                                          MSOX2004A, MSOX2014A, MSOX2024A, MSOX2002A, MSOX2012A, MSOX2022A, DSOX2004A,
+                                          DSOX2014A, DSOX2024A, DSOX2002A, DSOX2012A, DSOX2022A
+                                          MSOX3012T, MSOX3022T, MSOX3032T, MSOX3052T, MSOX3102T, 
+                                          MSOX3014T, MSOX3024T, MSOX3034T, MSOX3054T, MSOX3104T, 
+                                          DSOX3012T, DSOX3022T, DSOX3032T, DSOX3052T, DSOX3102T, 
+                                          DSOX3014T, DSOX3024T, DSOX3034T, DSOX3054T, DSOX3104T,
+                                          DSOX6002A, DSOX6004A, MSOX6002A, MSOX6004A                                    
+Supported Bus Interfaces:                 GPIB, Ethernet, USB
+
+
+32-bit Software Information:
+--------------------
+Supported Operating Systems:              Windows 7 (32-bit), Windows 7 (64-bit), Windows 8 (32-bit), Windows 8 (64-bit)
+                                          Windows 10 (32-bit), Windows 10 (64-bit)
+Support Software Required:                IVI Compliance Package 4.6.1, VISA 5.2 or later
+Source Code Availability:                 Available
+
+
+64-bit Software Information:
+--------------------
+Supported Operating Systems:              Windows 7 (64-bit), Windows 8 (64-bit), Windows 10 (64-bit)
+Unsupported Operation Systems:            N/A
+Support Software Required:                IVI Compliance Package 4.6.1, VISA 5.2 or later
+Source Code Availability:                 Available
+
+
+Unit Testing
+--------------------
+Test Setup 1 :
+Instrument Model (Firmware Revision):    MSOX3024T (04.06.2015051201)
+Bus Interface:                           Ethernet
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness/Application Bitness:          64-bit/32-bit
+VISA Vendor and Version:                 NI-VISA 14.0
+IVI Shared Components Version:           2.2.1
+
+
+Test Setup 2:
+Instrument Model (Firmware Revision):    MSOX4054A (04.06.2015051200)
+Bus Interface:                           Ethernet
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness/Application Bitness:          64-bit/32-bit
+VISA Vendor and Version:                 NI-VISA 14.0
+IVI Shared Components Version:           2.2.1
+
+Test Setup 3:
+Instrument Model (Firmware Revision):    MSOX6004A (06.10.2015061700)
+Bus Interface:                           Ethernet
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness/Application Bitness:          64-bit/32-bit
+VISA Vendor and Version:                 NI-VISA 15.0
+IVI Shared Components Version:           2.3
+
+Test Setup 4:
+Instrument Model (Firmware Revision):    MSOX6004A (06.10.2015061700)
+Bus Interface:                           USB
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness/Application Bitness:          64-bit/32-bit
+VISA Vendor and Version:                 NI-VISA 15.0
+IVI Shared Components Version:           2.3
+
+Driver Installation Testing:
+--------------------
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness:                              64-bit
+
+
+
+Driver Buildability:
+--------------------
+Operating System (Service Pack):         Windows 7 (SP1)
+OS Bitness:                              64-bit
+
+
+
+Driver Test Failures:
+--------------------
+Known Issues:                            
+1) Some tests fails due to no enough documentation to solve 'settings conflict' error, or unsupport by instrument/external device, etc. See unit test files for details.
+2) The function agx2k3k_ConfigureRuntTriggerSource is modified to comply with the IVI specification, which might break backward compatibility.
+
+Note:
+National Instruments has evaluated and/or tested this driver to verify that it meets all applicable requirements of the IVI specifications at the time this compliance document was submitted to the IVI Foundation and agrees to abide by the dispute arbitration provisions in Section 8 of IVI-1.2: Operating Procedures, if the IVI Foundation finds this driver to be non-conformant.
+
+
+
