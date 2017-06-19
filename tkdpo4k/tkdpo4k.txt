@@ -1,0 +1,134 @@
+IVI Compliance Category:
+-----------------------
+
+IVI-C IviScope Specific Instrument Driver 
+
+Class Specification version:        4.1
+IVI Generation:                     IVI-2014
+Group Capabilities Supported:
+
+Base                    	= Supported
+Interpolation           	= Not Supported
+TVTrigger               	= Supported
+RuntTrigger             	= Supported
+GlitchTrigger           	= Supported
+WidthTrigger            	= Not Supported
+AcLineTrigger           	= Supported
+WaveformMeasurement     	= Supported
+MinMaxWaveform          	= Supported
+ProbeAutoSense          	= Supported
+ContinuousAcquisition   	= Supported
+AverageAcquisition      	= Supported
+SampleMode              	= Supported
+TriggerModifier         	= Supported
+AutoSetup               	= Supported
+
+
+
+Optional Features:
+-----------------
+Interchangeability Checking     = True
+State Caching                   = True
+Coercion Recording              = True
+
+
+Driver Identification:
+---------------------
+Driver Revision:			4.4.3
+Driver Vendor:				National Instruments
+Prefix:					tkdpo4k
+Description:				Digital Phosphor Oscilloscope
+
+
+Driver Release Information:
+--------------------------
+Original Release Date:                  11/21/2005
+Update Release Date:                    02/02/2016
+
+
+
+Hardware Information:
+--------------------
+Instrument Manufacturer:		Tektronix
+Supported Instrument Models:		DPO4104, DPO4054, DPO4034, DPO4032, MSO4104, MSO4054, MSO4034, 
+					MSO4032, MSO3012, MSO3014, MSO3032, MSO3034,MSO3052, MSO3054, 
+					DPO3012, DPO3014, DPO3032, DPO3034, DPO3052, DPO3054, DPO4104B, 
+					DPO4054B, DPO4034B, MSO4104B, MSO4054B, MSO4034B, MDO41046, 
+					MDO41043, MDO40546, MDO40543, DPO4102B, DPO4102B-L, DPO4104B, 
+					MSO4102B, MSO4102B-L, MSO4104B, DPO4014B, MSO4014B, MDO4014-3, 
+					MDO4034-3, MDO4014B-3,MDO4034B-3, MDO4054B-3, MDO4054B-6, MDO4104B-3, 
+					MDO4104B-6, MDO3012, MDO3014, MDO3022, MDO3024, MDO3032, MDO3034, 
+					MDO3052, MDO3054, MDO3102, MDO3104, MDO4024C, MDO4034C, MDO4054C, 
+					MDO4104C
+Supported Bus Interfaces:		GPIB, Serial, Ethernet
+
+
+
+32-bit Software Information:
+--------------------
+Supported Operating Systems:              Windows 7 (32-bit), Windows 7 (64-bit), Windows 8 (32-bit), Windows 8 (64-bit)
+                                          Windows 10 (32-bit), Windows 10 (64-bit)
+Support Software Required:                IVI Compliance Package 4.6.1, VISA 5.2 or later
+Source Code Availability:                 Available
+
+
+64-bit Software Information:
+--------------------
+Supported Operating Systems:              Windows 7 (64-bit), Windows 8 (64-bit), Windows 10 (64-bit)
+Unsupported Operation Systems:            N/A
+Support Software Required:                IVI Compliance Package 4.6.1, VISA 5.2 or later
+Source Code Availability:                 Available
+
+
+
+Unit Testing
+--------------------
+Test Setup 1:
+
+Instrument Model (Firmware Revision):          MSO4054 (v2.13)
+Bus Interface:                                 Ethernet
+Operating System (Service Pack):               Windows 7 (SP1)
+OS Bitness/Application Bitness:                32-bit/32-bit
+VISA Vendor and Version:                       NI-VISA 5.4.0
+IVI Shared Components Version:                 2.2.1
+
+Test Setup 2:
+
+Instrument Model (Firmware Revision):          MSO4054 (v2.13)
+Bus Interface:                                 Ethernet
+Operating System (Service Pack):               Windows 7 (SP1)
+OS Bitness/Application Bitness:                64-bit/64-bit
+VISA Vendor and Version:                       NI-VISA 5.4.0
+IVI Shared Components Version:                 2.2.1
+
+Test Setup 3:
+
+Instrument Model (Firmware Revision):          MDO4104C (v0.00562)
+Bus Interface:                                 Ethernet
+Operating System (Service Pack):               Windows 7 (SP1)
+OS Bitness/Application Bitness:                64-bit/32-bit
+VISA Vendor and Version:                       NI-VISA 15.0.0
+IVI Shared Components Version:                 2.3.0
+
+Driver Installation Testing:
+--------------------
+Operating System (Service Pack):               Windows 7 (SP1)
+OS Bitness:                                    32-bit, 64-bit
+
+
+Driver Buildability:
+--------------------
+Operating System (Service Pack):               Windows 7 (SP1)
+OS Bitness:                                    32-bit, 64-bit
+
+
+Driver Test Failures:
+--------------------
+Known Issues:                                  
+1)The Valid Range issue with the :RF:RBW command is a documented issue on the Tektronix site FAQ ID: 876177 http://www.tek.com/support/faqs/mdo4000-specifications-say-minimum-rbw-resolution-bandwidth-20hz-i-could-only-select-50
+	
+Note:
+National Instruments has evaluated and/or tested this driver to verify that it meets all applicable requirements of the IVI specifications 
+at the time this compliance document was submitted to the IVI Foundation and agrees to abide by the dispute arbitration provisions in 
+Section 8 of IVI-1.2: Operating Procedures, if the IVI Foundation finds this driver to be non-conformant.
+
