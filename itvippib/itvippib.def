@@ -1,0 +1,18 @@
+LIBRARY     ITVIPPIB.DLL
+
+EXPORTS
+    PpiBlockRead                  = _PpiBlockRead@40                    
+    PpiBlockWrite                 = _PpiBlockWrite@40                   
+    PpiClose                      = _PpiClose@4                         
+    PpiDisableAndAbortWaitInterrupt= _PpiDisableAndAbortWaitInterrupt@4      
+    PpiEnableInterrupts           = _PpiEnableInterrupts@8              
+    PpiFinalizePlugin             = _PpiFinalizePlugin@0                
+    PpiGetDeviceAttribute         = _PpiGetDeviceAttribute@12           
+    PpiGetDeviceIDs               = _PpiGetDeviceIDs@20                 
+    PpiGetSpaceInfo               = _PpiGetSpaceInfo@20                 
+    PpiInitializePlugin           = _PpiInitializePlugin@0              
+    PpiMapMemory                  = _PpiMapMemory@24                    
+    PpiOpen                       = _PpiOpen@20                         
+    PpiTerminateIO                = _PpiTerminateIO@8                   
+    PpiUnmapMemory                = _PpiUnmapMemory@8                   
+    PpiWaitInterrupt              = _PpiWaitInterrupt@16                
