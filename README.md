@@ -28,6 +28,8 @@ matScope    - Matlab example
 
 sharpScope  - C# example (Measurement Studio)
 
+simScope    - Simulink example
+
 vsScope     - C++ example 
 
 ---
