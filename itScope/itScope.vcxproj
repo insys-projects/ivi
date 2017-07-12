@@ -115,7 +115,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>__IPC_WIN__;_IVI_mswin64_;__IPC_WIN__;_WIN32;WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__IPC_WIN__;_IVI_mswin64_;__IPC_WIN__;_WIN32;WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>E:\_ivi\scpi-parser-master\libscpi\inc;C:\Program Files (x86)\National Instruments\CVI2015\include;\..;$(BardyIncDir);$(BardyIncDir)\ctrladmpro;$(GipcyIncDir);C:\Program Files\IVI Foundation\VISA\Win64\Include;C:\Program Files\IVI Foundation\IVI\Include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <StructMemberAlignment>Default</StructMemberAlignment>
     </ClCompile>
@@ -158,7 +158,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>__IPC_WIN__;_IVI_mswin64_;__IPC_WIN__;_WIN32;WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__IPC_WIN__;_IVI_mswin64_;__IPC_WIN__;_WIN32;WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>E:\_ivi\scpi-parser-master\libscpi\inc;C:\Program Files (x86)\National Instruments\CVI2015\include;\..;$(BardyIncDir);$(BardyIncDir)\ctrladmpro;$(GipcyIncDir);C:\Program Files\IVI Foundation\VISA\Win64\Include;C:\Program Files\IVI Foundation\IVI\Include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
       <StructMemberAlignment>Default</StructMemberAlignment>
     </ClCompile>

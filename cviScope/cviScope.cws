@@ -1,22 +1,22 @@
 [Workspace Header]
 Version = 1501
 Pathname = "/e/_ivi/cviScope/cviScope.cws"
-CVI Dir = "/c/program files/national instruments/cvi2015"
-CVI Shared Dir = "/C/Program Files/National Instruments/Shared/CVI"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
 CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
-IVI Standard Root Dir = "/C/Program Files/IVI Foundation/IVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
 IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
-VXIplug&play Framework Dir = "/C/Program Files/IVI Foundation/VISA/winnt"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
 VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "cviScope.prj"
-Drag Bar Left = 317
+Drag Bar Left = 378
 Window Top = 43
 Window Left = 134
 Window Bottom = 1071
-Window Right = 1615
+Window Right = 1500
 Maximized = False
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -32,7 +32,7 @@ Break At First Statement = False
 Sort Type = "File Name"
 Number of Opened Files = 6
 Window Confinement Region Enabled = True
-MainColumnWidth = 300
+MainColumnWidth = 361
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -40,7 +40,7 @@ FileSizeColumnWidth = 70
 Version = 1501
 Don't Update DistKit = False
 Platform Code = 4
-Build Configuration = "Debug"
+Build Configuration = "Debug64"
 Warn User If Debugging Release = 1
 Batch Build Release = False
 Batch Build Debug = False
@@ -52,93 +52,72 @@ Disk Date = 3577279260
 In Projects = "1,"
 
 [File 0002]
-Path = "/C/Program Files/IVI Foundation/IVI/Drivers/iviscope/iviScope.fp"
+Path = "/C/Program Files (x86)/IVI Foundation/IVI/Drivers/iviscope/iviScope.fp"
 File Type = "Function Panel"
 Disk Date = 3548855502
 In Projects = "1,"
 
 [File 0003]
-Path = "/e/_Bardy/DEASY/msg_std.h"
+Path = "/e/_BARDY/DEASY/msg_std.h"
 File Type = "Include"
-Disk Date = 3560765952
+Disk Date = 3582636980
 In Projects = ""
-Window Top = 30
-Window Z-Order = 5
+Window Top = 31
+Window Z-Order = 6
 Source Window State = "1,0,0,0,0,0,0,0,0,70,0,0,0,0,0,28,0,0,0,0,400,600,1,0,"
 
 [File 0004]
 Path = "/e/_ivi/cviScope/cviScope.uir"
 File Type = "User Interface Resource"
-Disk Date = 3580477685
+Disk Date = 3582637387
 In Projects = "1,"
 Window Top = 62
 Window Left = 26
 Window Height = 349
 Window Width = 683
-Window Z-Order = 2
+Window Z-Order = 4
 
 [File 0005]
 Path = "/e/_ivi/cviScope/cviScope.c"
 File Type = "CSource"
-Disk Date = 3580477875
+Disk Date = 3582716099
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
 Window Z-Order = 1
-Source Window State = "1,167,168,167,0,0,0,0,0,141,0,0,0,0,0,48,145,0,171,0,349,683,1,0,"
+Source Window State = "1,171,171,171,0,64,0,2,0,119,0,0,0,0,0,56,108,0,136,4,349,683,1,0,"
 Breakpoint 0001 = "117,0,enabled,"
+Breakpoint 0002 = "137,0,enabled,"
 
 [File 0006]
 Path = "/e/_ivi/cviScope/cviScope.h"
 File Type = "Include"
-Disk Date = 3580477398
+Disk Date = 3582637387
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
-Window Z-Order = 3
+Window Z-Order = 5
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,2,0,35,33,349,683,1,0,"
 
 [File 0007]
-Path = "/c/Program Files/National Instruments/CVI2015/toolslib/toolbox/toolbox.h"
+Path = "/C/Program Files (x86)/IVI Foundation/IVI/Include/itScope.h"
 File Type = "Include"
-Disk Date = 3562610400
-In Projects = ""
-Window Top = 152
-Window Left = 74
-Window Z-Order = 6
-Source Window State = "1,414,414,414,8,14,14,0,3,80,0,0,0,0,0,25,402,0,414,8,349,683,1,0,"
-
-[File 0008]
-Path = "/C/Program Files/IVI Foundation/IVI/Include/itScope.h"
-File Type = "Include"
-Disk Date = 3578383500
+Disk Date = 0
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0009]
-Path = "/C/Program Files/IVI Foundation/IVI/Include/IviScope.h"
+[File 0008]
+Path = "/C/Program Files (x86)/IVI Foundation/IVI/Include/IviScope.h"
 File Type = "Include"
 Disk Date = 3548851890
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
-[File 0010]
-Path = "/c/Program Files/National Instruments/CVI2015/include/userint.h"
-File Type = "Include"
-Disk Date = 3562610400
-In Projects = ""
-Window Top = 272
-Window Left = 138
-Window Z-Order = 4
-Source Window State = "1,1099,1099,1099,12,15,15,0,3,80,0,0,0,0,0,25,1075,0,1099,12,349,683,1,0,"
-
 [Tab Order]
 Tab 0001 = "/e/_ivi/cviScope/cviScope.c"
 Tab 0002 = "/e/_ivi/cviScope/cviScope.uir"
-Tab 0003 = "/c/Program Files/National Instruments/CVI2015/toolslib/toolbox/toolbox.h"
-Tab 0004 = "/e/_Bardy/DEASY/msg_std.h"
-Tab 0005 = "/c/Program Files/National Instruments/CVI2015/include/userint.h"
-Tab 0006 = "/e/_ivi/cviScope/cviScope.h"
+Tab 0003 = "/e/_BARDY/DEASY/msg_std.h"
+Tab 0004 = "/e/_ivi/cviScope/cviScope.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

@@ -124,7 +124,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>__IPC_WIN__;WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_STDIO_ISO_WIDE_SPECIFIERS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__IPC_WIN__;WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_STDIO_ISO_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(BardyIncDir);$(BardyDir)\gipcy\include;C:\Program Files\IVI Foundation\VISA\Win64\Include;C:\Program Files\IVI Foundation\IVI\Include;%(AdditionalIncludeDirectories);C:\Program Files (x86)\National Instruments\CVI2015\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -172,7 +172,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>__IPC_WIN__;WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_STDIO_ISO_WIDE_SPECIFIERS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__IPC_WIN__;WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_STDIO_ISO_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(BardyIncDir);$(BardyDir)\gipcy\include;C:\Program Files\IVI Foundation\VISA\Win64\Include;C:\Program Files\IVI Foundation\IVI\Include;%(AdditionalIncludeDirectories);C:\Program Files (x86)\National Instruments\CVI2015\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>

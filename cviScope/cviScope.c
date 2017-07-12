@@ -91,8 +91,8 @@ int CVICALLBACK PlotWaveTimeFreq(int panel, int control, int event, void *callba
         frequency_array[actualRecordLength-i]=-1*delta_f;
     }
 
-	double maximumValue, minimumValue;
-	int maximumIndex, minimumIndex;
+	double maximumValue=0, minimumValue=0;
+	ssize_t maximumIndex, minimumIndex;
 	AnalysisLibErrType status; 
 	status = MaxMin1D(waveform, actualRecordLength, &maximumValue, &maximumIndex, &minimumValue, &minimumIndex);
 
@@ -132,7 +132,7 @@ int main (int argc, char *argv[])
 
 	/* initialize and load resources */
 	nullChk (InitCVIRTE (0, argv, 0));
-	errChk (panelHandle = LoadPanel (0, "cviScope.uir", PANEL));
+//	errChk (panelHandle = LoadPanel (0, "cviScope.uir", PANEL));
 
 	CHECK_ERROR("InitWithOptions", error = IviScope_InitWithOptions (DEVICE_NAME, VI_TRUE, VI_TRUE,
                                         "Simulate=0,RangeCheck=1,QueryInstrStatus=0,Cache=1",
@@ -166,6 +166,7 @@ int main (int argc, char *argv[])
 		&initialX, &incrementX));
 
 	/* INITIAL PANELS */
+	errChk (panelHandle = LoadPanel (0, "cviScope.uir", PANEL));
 	SetAxisScalingMode (PANEL, PANEL_WAVE_GRAPH, VAL_BOTTOM_XAXIS, VAL_MANUAL, 0.0, actualRecordLength * (1.0 / rateX));
 
 	/* display the panel and run the user interface */
